@@ -3,27 +3,31 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Удаление аккаунта — Arendacha / Account & Data Deletion</title>
-  <meta name="description" content="Как удалить аккаунт и данные в приложении Arendacha. How to delete your Arendacha account and associated data." />
+  <title>Удаление аккаунта — Arendacha / Account &amp; Data Deletion</title>
+  <meta name="description" content="Запросить удаление аккаунта и данных в приложении Arendacha. Request deletion of your Arendacha account and data." />
   <style>
-    :root { --fg:#1a1a1a; --muted:#666; --line:#e6e6e6; --accent:#2f6fed; --bg:#ffffff; }
+    :root { --fg:#1a1a1a; --muted:#666; --line:#e6e6e6; --accent:#2f6fed; --bg:#ffffff; --hl:#eef4ff; }
     * { box-sizing: border-box; }
     body { margin:0; background:var(--bg); color:var(--fg);
            font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
            line-height:1.6; }
     .wrap { max-width:760px; margin:0 auto; padding:32px 20px 80px; }
-    header { border-bottom:1px solid var(--line); padding-bottom:20px; margin-bottom:28px; }
-    h1 { font-size:26px; margin:0 0 6px; }
-    h2 { font-size:19px; margin:34px 0 10px; }
-    .app { color:var(--muted); font-size:15px; }
-    .lang-note { color:var(--muted); font-size:13px; margin-top:8px; }
+    header { border-bottom:1px solid var(--line); padding-bottom:20px; margin-bottom:24px; }
+    h1 { font-size:26px; margin:0 0 8px; }
+    h2 { font-size:19px; margin:32px 0 10px; }
+    .meta { color:var(--muted); font-size:15px; }
+    .meta strong { color:var(--fg); }
+    .lang-note { color:var(--muted); font-size:13px; margin-top:10px; }
     ol, ul { padding-left:22px; }
     li { margin:6px 0; }
     .card { border:1px solid var(--line); border-radius:10px; padding:16px 18px; margin:14px 0; }
+    .primary { background:var(--hl); border-color:#cfe0ff; }
+    .primary h2 { margin-top:0; }
     a { color:var(--accent); }
+    .btn { display:inline-block; background:var(--accent); color:#fff; text-decoration:none;
+           padding:11px 18px; border-radius:8px; font-weight:600; margin-top:6px; }
     .sep { height:1px; background:var(--line); border:0; margin:44px 0; }
     .small { color:var(--muted); font-size:13px; }
-    code { background:#f3f4f6; padding:2px 6px; border-radius:5px; font-size:14px; }
   </style>
 </head>
 <body>
@@ -32,29 +36,30 @@
     <!-- ===================== РУССКИЙ ===================== -->
     <header>
       <h1>Удаление аккаунта и данных</h1>
-      <div class="app">Приложение <strong>Arendacha</strong> (аренда дач и жилья)</div>
+      <div class="meta">Приложение: <strong>Arendacha</strong> &nbsp;·&nbsp; Разработчик: <strong>Arendacha</strong></div>
       <div class="lang-note">English version below ↓</div>
     </header>
 
-    <p>На этой странице описано, как удалить ваш аккаунт в приложении <strong>Arendacha</strong>
-       и связанные с ним персональные данные.</p>
+    <p>На этой странице вы можете <strong>запросить удаление своего аккаунта в приложении Arendacha</strong>
+       и всех связанных с ним данных. <strong>Переустанавливать приложение не нужно</strong> — запрос можно
+       отправить прямо отсюда.</p>
 
-    <h2>Способ 1 — в приложении (рекомендуется)</h2>
+    <div class="card primary">
+      <h2>Запросить удаление (без приложения)</h2>
+      <p>Напишите на адрес <strong>uubeks2@gmail.com</strong> с темой «Удаление аккаунта», указав номер
+         телефона или email, привязанный к аккаунту. Мы удалим ваш аккаунт и связанные данные.</p>
+      <a class="btn" href="mailto:uubeks2@gmail.com?subject=Удаление%20аккаунта%20Arendacha&amp;body=Прошу%20удалить%20мой%20аккаунт%20Arendacha.%20Мой%20номер%20телефона%2Femail%3A%20">Запросить удаление по email →</a>
+    </div>
+
     <div class="card">
+      <h2>Или удалите аккаунт прямо в приложении</h2>
       <ol>
         <li>Откройте приложение <strong>Arendacha</strong> и войдите в аккаунт.</li>
         <li>Перейдите на вкладку <strong>«Профиль»</strong>.</li>
         <li>Откройте <strong>редактирование профиля</strong>.</li>
-        <li>Нажмите <strong>«Удалить аккаунт»</strong> и подтвердите действие.</li>
+        <li>Нажмите <strong>«Удалить аккаунт»</strong> и подтвердите.</li>
       </ol>
-      <p class="small">Аккаунт и связанные данные удаляются сразу после подтверждения, и вы выходите из приложения.</p>
-    </div>
-
-    <h2>Способ 2 — без приложения</h2>
-    <div class="card">
-      <p>Если у вас нет доступа к приложению, отправьте запрос на удаление аккаунта на адрес
-         <strong><a href="mailto:uubeks2@gmail.com?subject=Account%20deletion%20request">uubeks2@gmail.com</a></strong>
-         с номера телефона / email, привязанного к аккаунту. Мы обработаем запрос и удалим аккаунт.</p>
+      <p class="small">Аккаунт и связанные данные удаляются сразу после подтверждения.</p>
     </div>
 
     <h2>Какие данные удаляются</h2>
@@ -65,14 +70,14 @@
       <li>Токен push-уведомлений этого устройства.</li>
     </ul>
 
-    <h2>Сроки и хранение</h2>
-    <p>Перечисленные выше данные удаляются <strong>без возможности восстановления</strong> сразу при
-       удалении аккаунта. Отдельные записи (например, история транзакций) могут храниться ограниченное
-       время в соответствии с требованиями законодательства и для предотвращения мошенничества, после
-       чего удаляются. Обезличенные диагностические данные о сбоях не привязаны к аккаунту.</p>
+    <h2>Сроки</h2>
+    <p>Эти данные удаляются <strong>без возможности восстановления</strong>. Запросы по email
+       обрабатываются в течение <strong>30 дней</strong>. Отдельные записи (например, история транзакций)
+       могут храниться ограниченное время в соответствии с законодательством и для предотвращения
+       мошенничества, после чего удаляются. Обезличенные данные о сбоях не привязаны к аккаунту.</p>
 
     <p class="small">Политика конфиденциальности:
-       <a href="https://docs.google.com/document/d/1VKaPPrBcncBPHyqf0k4FylIJro0jhU9pGe-zLGOcii4/edit?usp=sharing">открыть</a>.
+       <a href="https://www.freeprivacypolicy.com/live/5bbf1cb3-209a-431c-81df-d572ad930030">открыть</a>.
     </p>
 
     <hr class="sep" />
@@ -80,27 +85,28 @@
     <!-- ===================== ENGLISH ===================== -->
     <header>
       <h1>Account &amp; Data Deletion</h1>
-      <div class="app"><strong>Arendacha</strong> app (vacation home &amp; property rentals)</div>
+      <div class="meta">App: <strong>Arendacha</strong> &nbsp;·&nbsp; Developer: <strong>Arendacha</strong></div>
     </header>
 
-    <p>This page explains how to delete your <strong>Arendacha</strong> account and associated personal data.</p>
+    <p>On this page you can <strong>request deletion of your Arendacha account</strong> and all associated
+       data. <strong>You do not need to reinstall the app</strong> — you can submit the request right here.</p>
 
-    <h2>Option 1 — In the app (recommended)</h2>
+    <div class="card primary">
+      <h2>Request deletion (no app required)</h2>
+      <p>Email <strong>uubeks2@gmail.com</strong> with the subject “Account deletion”, including the phone
+         number or email linked to your account. We will delete your account and associated data.</p>
+      <a class="btn" href="mailto:uubeks2@gmail.com?subject=Arendacha%20account%20deletion&amp;body=Please%20delete%20my%20Arendacha%20account.%20My%20phone%2Femail%3A%20">Request deletion by email →</a>
+    </div>
+
     <div class="card">
+      <h2>Or delete your account in the app</h2>
       <ol>
         <li>Open the <strong>Arendacha</strong> app and sign in.</li>
         <li>Go to the <strong>Profile</strong> tab.</li>
         <li>Open <strong>Edit profile</strong>.</li>
         <li>Tap <strong>“Delete account”</strong> and confirm.</li>
       </ol>
-      <p class="small">Your account and associated data are deleted immediately upon confirmation, and you are signed out.</p>
-    </div>
-
-    <h2>Option 2 — Without the app</h2>
-    <div class="card">
-      <p>If you cannot access the app, send an account-deletion request to
-         <strong><a href="mailto:uubeks2@gmail.com?subject=Account%20deletion%20request">uubeks2@gmail.com</a></strong>
-         from the phone number / email associated with your account, and we will delete it for you.</p>
+      <p class="small">Your account and associated data are deleted immediately upon confirmation.</p>
     </div>
 
     <h2>What data is deleted</h2>
@@ -111,17 +117,18 @@
       <li>This device’s push-notification token.</li>
     </ul>
 
-    <h2>Retention</h2>
-    <p>The data listed above is <strong>permanently deleted</strong> when you delete your account. Certain records
-       (e.g. transaction history) may be retained for a limited period as required by law and for fraud prevention,
-       then deleted. Anonymized crash diagnostics are not linked to your account.</p>
+    <h2>Timeframe</h2>
+    <p>This data is <strong>permanently deleted</strong>. Email requests are processed within
+       <strong>30 days</strong>. Certain records (e.g. transaction history) may be retained for a limited
+       period as required by law and for fraud prevention, then deleted. Anonymized crash data is not
+       linked to your account.</p>
 
     <p class="small">Privacy Policy:
-       <a href="https://docs.google.com/document/d/1VKaPPrBcncBPHyqf0k4FylIJro0jhU9pGe-zLGOcii4/edit?usp=sharing">open</a>.
+       <a href="https://www.freeprivacypolicy.com/live/5bbf1cb3-209a-431c-81df-d572ad930030">open</a>.
     </p>
 
     <hr class="sep" />
-    <p class="small">© Arendacha. Developer contact: uubeks2@gmail.com</p>
+    <p class="small">App: Arendacha · Developer: Arendacha · Contact: uubeks2@gmail.com</p>
 
   </div>
 </body>
